@@ -1,0 +1,58 @@
+.rectangle {
+  height: 300px;
+  width: auto;
+  background-color: #555;
+  position: fixed;
+}
+body {
+/* background-color: #99ddff */
+/* height: 200px; */
+    background: white; /* For browsers that do not support gradients */
+    background: linear-gradient(rgba(255,0,0,0), #99ddff); /* Standard syntax (must be last) */
+
+}
+  #headername {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0000b3
+  }
+  #logo {
+    position: relative;
+    height: 200px;
+    width: auto;
+    opacity: .85;
+  }
+  #search {
+    position: absolute;
+    right: 30px;
+    border-radius: 2px;
+    background-color: #cceeff;
+    font-weight: bold;
+
+  }
+
+#list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0000b3;
+  }
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+  }
+  #foot {
+  display: inline;
+}
